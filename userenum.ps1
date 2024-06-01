@@ -1,0 +1,1 @@
+Get-WmiObject Win32_UserAccount | Select Name, SID

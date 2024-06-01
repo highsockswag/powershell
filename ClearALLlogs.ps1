@@ -1,0 +1,1 @@
+Get-EventLog -List | ForEach-Object {Clear-EventLog $_.log }
